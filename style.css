@@ -41,13 +41,12 @@ body {
 #navigation__box {
   padding: 1rem;
   display: flex;
-  /* gap: 10px; */
   align-items: center;
   position: relative;
 }
 
 #navigation__box > * + *{
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #desktop--links {
