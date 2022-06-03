@@ -41,9 +41,13 @@ body {
 #navigation__box {
   padding: 1rem;
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
   align-items: center;
   position: relative;
+}
+
+#navigation__box > * + *{
+  margin-left: 10px;
 }
 
 #desktop--links {
@@ -61,6 +65,7 @@ body {
   list-style: none;
   background-color: var(--white-color);
   transition: left 800ms;
+  margin-left: 0!important;
 }
 
 .hamburger--links li {
@@ -144,7 +149,6 @@ body {
 
 .cart-item {
   display: flex;
-  gap: 1rem;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
@@ -220,7 +224,7 @@ body {
 
 #products--slider img {
   height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
 .slider-controller {
@@ -262,16 +266,20 @@ body {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+
+}
+
+#product--content > * + * {
+  margin-top: 1rem;
 }
 
 .product-owners {
   display: flex;
-  gap: 0.2rem;
   flex-direction: column;
 }
 
 #product--company1 {
+  margin-bottom: 0.2rem;
   font-size: 0.6rem;
   font-weight: 900;
   color: var(--orange-color);
@@ -297,7 +305,6 @@ body {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
   font-family: "KumbhSans";
   font-weight: 900;
 }
@@ -307,11 +314,11 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
 }
 
 #discount-percent {
   margin: auto 0;
+  margin-left: 0.5rem;
   padding: 5px;
   height: 30px;
   border-radius: 10px;
@@ -335,10 +342,10 @@ body {
   margin: 0.3rem 0;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
 }
 
 .product-quantity {
+  margin-bottom: 0.5rem;
   border-radius: 10px;
   display: flex;
   background-color: var(--light-grayish-blue);
@@ -361,10 +368,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.8rem;
   color: var(--white-color);
   font-family: KumbhSans;
   font-weight: 500;
+}
+
+#product-button > * + *{
+  margin-left: 0.8rem;
 }
 
 .image-slider-modal {
@@ -389,6 +399,8 @@ body {
     gap: 0.5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.141);
   }
+
+
 
   #cart-box:hover {
     cursor: pointer;
@@ -460,6 +472,7 @@ body {
 
   #products--slider img {
     border-radius: 10px;
+    width: 100%;
   }
 
   .img-slide {
@@ -502,7 +515,7 @@ body {
   }
 
   .basket {
-    max-width: 500px;
+    max-width: 400px;
     left: auto;
     right: 2rem;
     transform: translateX(0);
