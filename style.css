@@ -45,7 +45,7 @@ body {
   position: relative;
 }
 
-#navigation__box > * + *{
+#navigation__box > * + * {
   margin-left: 15px;
 }
 
@@ -64,7 +64,7 @@ body {
   list-style: none;
   background-color: var(--white-color);
   transition: left 800ms;
-  margin-left: 0!important;
+  margin-left: 0 !important;
 }
 
 .hamburger--links li {
@@ -265,7 +265,6 @@ body {
   margin: 10px;
   display: flex;
   flex-direction: column;
-
 }
 
 #product--content > * + * {
@@ -372,7 +371,7 @@ body {
   font-weight: 500;
 }
 
-#product-button > * + *{
+#product-button > * + * {
   margin-left: 0.8rem;
 }
 
@@ -398,8 +397,6 @@ body {
     gap: 0.5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.141);
   }
-
-
 
   #cart-box:hover {
     cursor: pointer;
@@ -507,6 +504,14 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: 0.8fr 1fr;
+  }
+
+  #products-info > * + *{
+    margin-left: 0.5rem;
+  }
+
+  .product-quantity{
+    margin-bottom: 0;
   }
 
   .control:hover {
