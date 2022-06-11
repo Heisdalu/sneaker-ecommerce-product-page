@@ -12,7 +12,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://sneaker-ecommerce-product.netlify.app/)
 
 ### Built with
 
@@ -24,6 +24,4 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@Dhevine_0X](https://www.twitter.com/Dhevine_0X)
