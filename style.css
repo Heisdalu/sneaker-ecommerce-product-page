@@ -114,7 +114,8 @@ body {
 
 #user-profile {
   height: 30px;
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
+  width: 30px;
 }
 
 #user-profile img {
