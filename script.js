@@ -21,11 +21,13 @@ const cart_box = document.querySelector(".basket")
 hamburger.addEventListener("click", (e) => {
   hamburgerList.style.left = "0"
   fadeIn_Blur.classList.toggle("modal")
+  document.body.style.overflowY = 'hidden'
 })
 
 exit_hamburgerList.addEventListener("click", (e) => {
   hamburgerList.style.left = "-100%"
   fadeIn_Blur.classList.toggle("modal")
+  document.body.style.overflowY = 'scroll'
 })
 
 let count = 0
